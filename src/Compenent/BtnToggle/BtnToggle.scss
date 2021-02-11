@@ -1,0 +1,32 @@
+.btn-toggle {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    background: #333;
+    border: 1px solid #333;
+    color: #f1f1f1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.btn-toggle.light-mode {
+    background: #333;
+    color: #f1f1f1;
+}
+.btn-toggle.dark-mode {
+    background: #f1f1f1;
+    color: #333;
+}
